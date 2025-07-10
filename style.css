@@ -1,0 +1,37 @@
+.navbar{
+    height: 60px;
+}
+
+.jumbotron{
+    background-image: url(jumbotronimage.png);
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 60px;
+    color: white;
+}
+
+#content{
+padding-top: 30px;
+text-align: center;
+margin-bottom: 30px;
+}
+
+#card{
+    background-color: #d07da4;
+    padding-bottom: 50px;
+}
+
+.card-body{
+    background-color: #e9dada;
+}
+
+footer{
+    background-color: #eddbe7;
+    text-align: center;
+    padding: 50px;
+}
+
+#footerimage{
+    border-radius: 20px;
+    width: 200px;
+}
