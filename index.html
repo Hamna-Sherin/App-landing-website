@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>App landing</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="#navId" tabindex="0" data-bs-offset="150">
+    <section id="navbar">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top" id="#navId" style="background-color: #e3f2fd";>
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">My App</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#jumbotron">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#card">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#footer">Download</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="email" placeholder="Email" aria-label="Email"/>
+              <input class="form-control me-2" type="password" placeholder="Password" aria-label="password"/>
+              <button class="btn btn-success" type="submit">Submit</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <section id="jumbotron">
+      <div class="jumbotron">
+        <h1 class="display-4">Hello, world!</h1>
+        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+        <hr class="my-4">
+        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+      </div>
+    </section>
+
+    <section id="card">
+      <div class="container" id="content">
+        <h1>Why this app is awesome</h1>
+        <p>This app is awesome to use</p>
+      </div>
+
+      <div class="row container-fluid">
+        <div class="col-sm-4 mb-3 mb-sm-0">
+          <div class="card">
+            <img src="https://i0.wp.com/blog.tunemymusic.com/wp-content/uploads/2022/10/Spotify-mobile-music-library.png?resize=800%2C451&ssl=1" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+              <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card">
+            <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*EOHjtDfRtnLWlhsT" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+              <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card">
+            <img src="https://s.yimg.com/ny/api/res/1.2/UYfKA2ggzUfknbPh4vbzRQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NTQ-/https://o.aolcdn.com/hss/storage/midas/de7eb04bc8fb4945acba3c430db1a272/204993889/soundcloud-go-plus.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+              <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="footer">
+      <h3>Download the app!</h3>
+      <p>Music Everywhere, Anytime, Free</p>
+      <p><a href="#"><img id="footerimage" src="playstore-logo.jpg"></a></p>
+      <p><a href="#"><img id="footerimage" src="appstore-logo.jpg" alt=""></a></p>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+  </body>
+</html>
