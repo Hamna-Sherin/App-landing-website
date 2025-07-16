@@ -2,13 +2,8 @@
     height: 60px;
 }
 
-.navbar-collapse{
-    margin-top: 12px;
-    padding-bottom: 20px;
-}
-
 .jumbotron{
-    background-image: url(jumbotronimage.png);
+    background-image: url(Images/jumbotronimage.png);
     text-align: center;
     padding-top: 100px;
     padding-bottom: 60px;
